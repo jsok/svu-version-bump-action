@@ -1,4 +1,4 @@
-name: 'svu'
+name: 'svu-version-bump'
 description: 'Uses svu to caculate the next version number'
 inputs:
   bump:

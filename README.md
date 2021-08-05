@@ -31,7 +31,7 @@ The next calculated version number.
 ## Example usage
 
 ```yaml
-uses: jsok/svu-action@v1
+uses: jsok/svu-version-bump-action@v1
 with:
   bump: 'next'
 ```
@@ -39,7 +39,7 @@ with:
 ## Set an initial version
 
 ```yaml
-uses: jsok/svu-action@v1
+uses: jsok/svu-version-bump-action@v1
 with:
   bump: 'next'
   initial: '0.0.1'
@@ -48,7 +48,7 @@ with:
 ## Custom pattern and prefix
 
 ```yaml
-uses: jsok/svu-action@v1
+uses: jsok/svu-version-bump-action@v1
 with:
   bump: 'next'
   pattern: 'foo/*'
