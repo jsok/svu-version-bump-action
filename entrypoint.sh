@@ -14,7 +14,7 @@ else
     if [ -n "${INITIAL}" ]
     then
         echo "::warning Could not find a current version, initialising version to ${INITIAL}"
-        version="${INITIAL}"
+        version="${PREFIX}${INITIAL}"
     else
         echo "::error Could not find a current version!"
         exit 1
