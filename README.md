@@ -28,6 +28,10 @@ Otherwise this SemVer will be used as the initial version.
 
 The next calculated version number.
 
+## `version-without-prefix`
+
+The next calculated version number without the prefix.
+
 ## Example usage
 
 ```yaml
