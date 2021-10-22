@@ -19,6 +19,8 @@ inputs:
 outputs:
   version:
     description: 'Next version'
+  version-without-prefix:
+    description: 'Next version without the prefix'
 runs:
   using: 'docker'
   image: 'Dockerfile'
