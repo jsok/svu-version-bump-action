@@ -13,9 +13,6 @@ inputs:
     description: 'Tag prefix'
     required: false
     default: 'v'
-  initial:
-    description: 'Initial version to set if the current version cannot be found'
-    required: false
 outputs:
   version:
     description: 'Next version'
@@ -28,4 +25,3 @@ runs:
     - ${{ inputs.bump }}
     - ${{ inputs.pattern }}
     - ${{ inputs.prefix }}
-    - ${{ inputs.initial }}
