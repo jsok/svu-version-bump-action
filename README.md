@@ -17,11 +17,6 @@ Defaults to `next`, but also supports: `major`, `minor` or `patch`.
 
 **Optional**: Invokes `svu --prefix`'s behaviour, defaults to `v`.
 
-## `initial`
-
-If this is not set, the action will fail if the current version cannot be determined.
-Otherwise this SemVer will be used as the initial version.
-
 ## Outputs
 
 ## `version`
@@ -40,15 +35,6 @@ with:
   bump: 'next'
 ```
 
-## Set an initial version
-
-```yaml
-uses: jsok/svu-version-bump-action@v1
-with:
-  bump: 'next'
-  initial: '0.0.1'
-```
-
 ## Custom pattern and prefix
 
 ```yaml
@@ -57,5 +43,4 @@ with:
   bump: 'next'
   pattern: 'foo/*'
   prefix: 'foo/v'
-  initial: '0.0.1'
 ```
